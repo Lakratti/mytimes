@@ -7,6 +7,7 @@ body {
 
 }
 
+/* Header */
 
 header {
   display: flex;
@@ -45,8 +46,42 @@ div.logo h1 {
   font-weight: bold;
   color: MediumAquamarine;
   padding-left: 10px;
+}
 
 
+  /* Main Section */
+
+.main {
+  display: flex;
+  border: 1px solid black;
+  position: relative;
+  top: 100px;
+  justify-content: space-between;
+
+}
+
+.main div {
+  border: 1px solid black;
+
+
+}
+
+.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
 }
   /**/
   /*
