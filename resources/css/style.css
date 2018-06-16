@@ -55,15 +55,14 @@ div.logo h1 {
 
 .main {
   display: flex;
-  border: 1px solid black;
   position: relative;
-  top: 100px;
-  justify-content: space-between;
+  top: 120px;
+  justify-content: center;
 
 }
 
 .main div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -73,15 +72,17 @@ div.logo h1 {
 
 .large {
   width: 630px;
-  display: inline-flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-right: 35px;
 }
 
 .medium {
   width: 300px;
   display: flex;
   flex-direction: column;
+  margin-right: 35px;
 }
 
 .small {
@@ -93,6 +94,9 @@ div.logo h1 {
 
 .image {
   height: 300px;
+  display: flex;
+
+
 
 
 }
@@ -102,31 +106,63 @@ div.logo h1 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+  margin: 20px;
 }
 
-.mother {
+.mainstory-banner {
   background-image: url("../images/img-story-main.png");
 
 }
 
-.mother h1 {
+#mainstory-heading {
   font-size: 40px;
+  text-align: left;
 }
 
-.earth {
+#orca {
+  order: 0;
+  padding: 20px 0;
+}
+
+#burger {
+  order: 1;
+  padding: 20px 0;
+}
+
+#earth {
   background-image: url("../images/img-story-2.png");
   width: 299px;
+  justify-content: center;
+  order: 2;
 }
 
-.research {
+#research {
   background-image: url("../images/img-story-3.png");
   width: 299px;
+  justify-content: center;
+  order: 3;
 }
 
-.cats {
+#cats {
   background-image: url("../images/img-story-1.png");
+  justify-content: center;
 }
 
-.content {
+.story {
   width: 299px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+}
+
+p {
+  margin: 20px 0px;
+}
+
+.story h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
 }
