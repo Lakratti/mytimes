@@ -166,3 +166,28 @@ p {
   font-weight: bold;
   font-size: 30px;
 }
+
+/*  Third column  */
+
+#newsbites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#bites-container {
+  display: flex;
+  flex-flow: column;
+
+}
+
+.bites {
+  padding: 10px 20px;
+  margin: 0;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
